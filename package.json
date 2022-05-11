@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Determine whether file or file path is a hidden file",
   "main": "src/index.js",
+  "typings": "types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wearefrigus/is-hidden-file.git"
