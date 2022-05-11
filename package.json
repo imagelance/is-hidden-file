@@ -1,18 +1,28 @@
 {
-	"name": "is-hidden-file",
-	"version": "1.0.0",
-	"description": "Determine whether file or file path is a hidden file",
-	"main": "src/index.js",
-	"repository": "https://github.com/wearefrigus/is-hidden-file",
-	"author": "Patrik Janosdeak <janosdeak.patrik@gmail.com>",
-	"license": "MIT",
-	"dependencies": {
-		"path": "^0.12.7"
-	},
-	"devDependencies": {
-		"jest": "^28.1.0"
-	},
-	"scripts": {
-		"test": "jest"
-	}
+  "name": "@frigus/is-hidden-file",
+  "version": "1.0.1",
+  "description": "Determine whether file or file path is a hidden file",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearefrigus/is-hidden-file.git"
+  },
+  "author": "Patrik Janosdeak <janosdeak.patrik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/wearefrigus/is-hidden-file/issues"
+  },
+  "homepage": "https://github.com/wearefrigus/is-hidden-file#readme",
+  "directories": {
+    "test": "tests"
+  }
 }
