@@ -1,0 +1,18 @@
+{
+	"name": "is-hidden-file",
+	"version": "1.0.0",
+	"description": "Determine whether file or file path is a hidden file",
+	"main": "src/index.js",
+	"repository": "https://github.com/wearefrigus/is-hidden-file",
+	"author": "Patrik Janosdeak <janosdeak.patrik@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"path": "^0.12.7"
+	},
+	"devDependencies": {
+		"jest": "^28.1.0"
+	},
+	"scripts": {
+		"test": "jest"
+	}
+}
