@@ -1,1 +1,1 @@
-export function isHiddenFile(path: string): boolean;
+export default function isHiddenFile(path: string): boolean;
