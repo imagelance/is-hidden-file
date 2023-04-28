@@ -11,15 +11,22 @@ const isWindows = function detectingIfPlatformIsWindows() {
 	return os.platform() === 'win32';
 }
 
+const normalizeValue = function normalizingValuge(value) {
+	if (value[0] === path.sep) {
+		return value;
+	}
+
+	return `${ path.sep }${ value }`;
+}
+
 const isHiddenFile = function detectingIfPathIsHiddenFile(value) {
 	if (typeof value !== 'string') {
 		throw new Error('Supplied value must be a string.');
 	}
 
 	const pattern = isWindows() ? windowsHiddenPathRegex : unixHiddenPathRegex;
-	const normalizedValue = path.join(value);
 
-	return normalizedValue.match(pattern) !== null;
+	return normalizeValue(value).match(pattern) !== null;
 };
 
 module.exports = isHiddenFile;
