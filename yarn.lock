@@ -1669,6 +1669,11 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
+mock-os@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/mock-os/-/mock-os-1.0.0.tgz#19a470d0ab665d0d75cd6730a9a0b5333de656ca"
+  integrity sha512-F2q8Vn6Md1cYN82K+MUMWLTmfs0FJVTjOLwvUPfy1JhFPaRoZ2zqludym9oZGxYLl81elOrIZvinZDvTX/llMg==
+
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
