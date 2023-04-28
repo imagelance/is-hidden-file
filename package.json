@@ -1,6 +1,6 @@
 {
   "name": "@frigus/is-hidden-file",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Determine whether file or file path is a hidden file",
   "main": "src/index.js",
   "typings": "types/index.d.ts",
