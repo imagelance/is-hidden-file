@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/wearefrigus/is-hidden-file.git"
   },
-  "author": "Patrik Janosdeak <janosdeak.patrik@gmail.com>",
+  "author": "Hynek Zatloukal <hynek.zatloukal@dentsu.com>",
   "license": "MIT",
   "dependencies": {
     "path": "^0.12.7"
